@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shivani510669/AutoCIS.git/static/css/main.5a733ef7.css",
+    "main.js": "/Shivani510669/AutoCIS.git/static/js/main.37a62936.js",
+    "index.html": "/Shivani510669/AutoCIS.git/index.html",
+    "main.5a733ef7.css.map": "/Shivani510669/AutoCIS.git/static/css/main.5a733ef7.css.map",
+    "main.37a62936.js.map": "/Shivani510669/AutoCIS.git/static/js/main.37a62936.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a733ef7.css",
+    "static/js/main.37a62936.js"
+  ]
+}
