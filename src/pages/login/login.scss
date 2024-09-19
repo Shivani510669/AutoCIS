@@ -1,0 +1,124 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+// Global styles or custom SCSS for login page
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+// Add any additional styles specific to the login page here
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B1437; // Dark blue background
+    width: 50%;
+    padding: 2rem;
+    color: #FFFFFF;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: medium;
+  }
+  
+  .input {
+    background: transparent;
+    border: 1.5px solid #A3AED0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #A3AED0;
+    font-size: 14px;
+  }
+  
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .forgot-password {
+    color: #A3AED0;
+    text-decoration: none;
+  }
+  
+  .submit-button {
+    background-color: #7551FF;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin-top: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .login-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* login.scss */
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-form {
+    // Existing styles
+  
+    .error-message {
+      color: red;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Other existing styles */
+  
